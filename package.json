@@ -7,9 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "core-js": "^3.8.3",
+    "sweetalert": "^2.1.2",
     "vue": "^3.2.13",
+    "vue-axios": "^3.4.1",
     "vue-router": "^4.0.3",
+    "vuetify": "^2.6.4",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
@@ -20,7 +24,8 @@
     "@vue/cli-service": "~5.0.0",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "vue-cli-plugin-vuetify": "~2.4.8"
   },
   "browserslist": [
     "> 1%",
